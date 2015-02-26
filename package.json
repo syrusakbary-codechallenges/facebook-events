@@ -1,0 +1,43 @@
+{
+  "name": "facebook-events",
+  "version": "0.1.0",
+  "description": "Facebook events",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/syrusakbary-codechallenges/facebook-events.git"
+  },
+  "homepage": "https://github.com/syrusakbary/facebook-events/blob/latest/README.md",
+  "bugs": "https://github.com/syrusakbary-codechallenges/facebook-events/issues",
+  "scripts": {
+    "deps": "npm install --quiet --loglevel warn && ./node_modules/webpack/bin/webpack.js",
+    "dev-server": "npm install --quiet --loglevel warn && ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
+  },
+  "authors": [
+    "Syrus Akbary <me@syrusakbary.com>"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "browsernizr": "^1.0.2",
+    "jsx-loader": "0.12.0",
+    "lodash": "*",
+    "mocha-loader": "0.7.1",
+    "react": "0.12.x",
+    "reactify": "^0.17.1",
+    "uglify-js": "^2.4.15",
+    "webpack": "1.5.3",
+    "webpack-dev-server": "1.7.0"
+  },
+  "peerDependencies": {
+    "react": "0.12.x"
+  },
+  "tags": [
+    "react",
+    "facebook",
+    "events"
+  ],
+  "keywords": [
+    "react",
+    "react-component",
+    "events"
+  ]
+}
